@@ -40,7 +40,7 @@ RCT_EXPORT_MODULE()
       return;
     }
 
-    [mySharedDefaults setValue:value forKey:key];
+    [mySharedDefaults setObject:value forKey:key];
     callback(@[[NSNull null]]);
   }
 
